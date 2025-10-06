@@ -11,6 +11,6 @@ cell2.innerText=+totalPrice;
 cell1.innerText="Total Price";
 row.appendChild(cell1)
 row.appendChild(cell2)
-
-let table= document.querySelector("table")
-table.appendChild(row)
+cell1.style.fontWeight = "bold";
+cell2.style.fontWeight = "bold";
+ document.querySelector("table").appendChild(row);
