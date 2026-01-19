@@ -5,6 +5,7 @@ for(let el of Elements){
 }
 
 let row= document.createElement("tr")
+row.id="ans"
 let cell1= document.createElement("td")
 let cell2= document.createElement("td")
 cell2.innerText=+totalPrice;
